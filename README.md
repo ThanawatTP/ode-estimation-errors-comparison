@@ -6,7 +6,7 @@ comparison of the errors between the exact solution and the approximate solution
  - First-order ODE: $y' = 2x + 1, y(0) = 0$  
     Exact solution: $y(x) = x(x+1)$
     
- - Second-order ODE:$y'' + y = sin(x), y(0)=0, y'(0)=1$
+ - Second-order ODE: $y'' + y = sin(x), y(0)=0, y'(0)=1$
     
     Exact solution: $y(x) = {1 \over 2 }(3sin(x)-xcos(x))$
 
