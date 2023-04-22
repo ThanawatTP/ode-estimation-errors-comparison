@@ -2,6 +2,23 @@
 # ODE Estimation Errors Comparison
 comparison of the errors between the exact solution and the approximate solution using the Explicit method and Implicit method of the Single-step Euler method, as well as the Multi-step methods using the Adams-Bashforth and Adams-Moulton methods for ODEs of sizes 1 through 4. Measures for comparison, such as the error compared to the exact solution, the computation time for each method, and the programming languages used, including Python, MATLAB, Julia, and C++.
 
+## ODE Equation
+ - First-order ODE: $y' = 2x + 1, y(0) = 0$  
+    Exact solution: $y(x) = x(x+1)$
+    
+ - Second-order ODE:$y'' + y = sin(x), y(0)=0, y'(0)=1$
+    
+    Exact solution: $y(x) = {1 \over 2 }(3sin(x)-xcos(x))$
+
+ - Third-order ODE: $y'''+y''+y'+y = 2x-1, y(0) = 1, y'(0) = 1, y''(0) = 0$
+    
+    Exact solution: $y(x) = 2x + 2e^-x + 2cos(x) - 3$
+
+
+ - Fourth-order ODE: $y'''' + 4y'' + 4y = 0, y(0)=1, y'(0) = 0, y''(0) = 0, y'''(0) = -4$
+    
+    Exact solution: $y(x) = { (x-1)sin(2x) \over \sqrt{2} } + (x + 1)cos(\sqrt{2}x)$
+
 ## Single-step Euler method
 The Single-step Euler method is a numerical method used to solve ordinary differential equations (ODEs) with an initial value given. It involves numerical approximations and is composed of
 - Explicit Euler Method
